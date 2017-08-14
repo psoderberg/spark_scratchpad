@@ -2,7 +2,6 @@
 #$pyspark2 --jars /lib/hadoop_lib/spark/elasticsearch-hadoop-5.5.1.jar
 
 from pyspark.sql import HiveContext
-from pyspark import SparkConf, SparkContext
 
 hive_context = HiveContext(sc)
 
